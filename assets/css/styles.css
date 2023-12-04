@@ -492,6 +492,8 @@ a {
     font-weight: 400;
 }
 
+/* =========Quote============== */
+
 .quote {
     margin-top: 264px;
 }
@@ -499,11 +501,11 @@ a {
 .quote .body {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .quote .info-block {
     width: 35.82%;
+    padding: 37px 0;
 }
 
 .quote .info-block .review {
@@ -575,7 +577,6 @@ a {
 }
 
 .quote .img-block {
-    width: 64.18%;
     position: relative;
 }
 
@@ -625,4 +626,37 @@ a {
     right: 601px;
     width: 78px;
     height: 78px;
+}
+
+/* ==========Action========== */
+
+.cta {
+    margin-top: 130px;
+    background: #DEF6F5;
+}
+
+.cta .body {
+    padding: 76px 0 88px 0;
+    display: flex;
+    align-items: center;
+}
+
+.cta .body .info .desc {
+    margin-top: 18px;
+    color: #767E7E;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.cta .body .button-action {
+    margin-left: 410px;
+    padding: 20.5px;
+    color: #FFF;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
