@@ -395,7 +395,7 @@ a {
     height: 393px;
     object-fit: cover;
     border-radius: 8px;
-    opacity: 0.55;
+    opacity: 0.35;
     background: #D0EFED;
 }
 
@@ -464,4 +464,31 @@ a {
 
 .courses .card-body .info:nth-of-type(2) {
     margin-left: 10px;
+}
+
+.stats {
+    margin-top: 336px;
+}
+
+.stats .body .stats-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats .stats-list .item .title {
+    color: #0D1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.stats .stats-list .item .desc {
+    margin-top: 11px;
+    color: #767E7E;
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
 }
