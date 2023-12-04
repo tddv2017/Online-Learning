@@ -32,9 +32,12 @@ a {
     background: #2AC9BF;
     color: #fff;
     text-align: center;
-    font-size: 1.6rem;
     font-weight: 600;
     line-height: normal;
+}
+
+.btn:hover {
+    opacity: 0.8;
 }
 
 .avatar {
@@ -43,6 +46,7 @@ a {
     justify-content: center;
     width: 33px;
     height: 33px;
+    object-fit: cover;
     background: #1EBFC1;
     border-radius: 50%;
     color: #FFF;
@@ -83,20 +87,17 @@ a {
 
 .header .nav .menu-list .li {
     color: #2F3A3B;
-    font-size: 1.6rem;
     font-weight: 400;
 }
 
 .header .nav .menu-list .active {
     color: #2F3A3B;
-    font-size: 1.6rem;
     font-weight: 600;
 }
 
 .header .nav .action .sign-in {
     margin-right: 24px;
     color: #494949;
-    font-size: 1.6rem;
     font-weight: 400;
 }
 
@@ -333,7 +334,6 @@ a {
 
 .features .body .card-list .desc {
     color: #9DA6A5;
-    font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.6785;
@@ -413,7 +413,6 @@ a {
 .courses .card-body .price {
     margin-top: 16px;
     color: #767E7E;
-    font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -491,4 +490,139 @@ a {
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
+}
+
+.quote {
+    margin-top: 264px;
+}
+
+.quote .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote .info-block {
+    width: 35.82%;
+}
+
+.quote .info-block .review {
+    margin-top: 27px;
+    width: 100%;
+    color: #5D6564;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.quote .info-block .author {
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #767E7E;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quote .info-block .author::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+
+.quote .info-block .author strong {
+    margin-left: 5px;
+    color: #070707;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.quote .info-block .action {
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+}
+
+.quote .info-block .action a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #2AC9BF;
+    color: white;
+    background: #2AC9BF;
+}
+
+.quote .info-block .action a:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #2AC9BF;
+    color: #2AC9BF;
+    background: transparent;
+}
+
+.quote .img-block {
+    width: 64.18%;
+    position: relative;
+}
+
+.quote .img-block .avatar:nth-of-type(1) {
+    position: absolute;
+    top: 107px;
+    right: 171px;
+    width: 235px;
+    height: 235px;
+}
+
+.quote .img-block .avatar:nth-of-type(2) {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    width: 110px;
+    height: 110px;
+}
+
+.quote .img-block .avatar:nth-of-type(3) {
+    position: absolute;
+    top: 374px;
+    right: 32px;
+    width: 78px;
+    height: 78px;
+}
+
+.quote .img-block .avatar:nth-of-type(4) {
+    position: absolute;
+    top: 0;
+    right: 443px;
+    width: 92px;
+    height: 92px;
+}
+
+.quote .img-block .avatar:nth-of-type(5) {
+    position: absolute;
+    top: 403px;
+    right: 389px;
+    width: 78px;
+    height: 78px;
+}
+
+.quote .img-block .avatar:nth-of-type(6) {
+    position: absolute;
+    top: 258px;
+    right: 601px;
+    width: 78px;
+    height: 78px;
 }
