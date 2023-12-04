@@ -52,9 +52,17 @@ a {
     font-weight: 500;
 }
 
+.heading-lv2 {
+    color: #0D1111;
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.33;
+}
+
 /* Header */
 .header .nav {
-    margin-top: 57px;
+    margin-top: 52px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -96,7 +104,8 @@ a {
 /* Hero */
 
 .hero .body {
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 69px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -268,4 +277,63 @@ a {
 .hero .block-img .student-block .group-avatar .avatar:last-child {
     z-index: 1;
 
+}
+
+/* ======== Features ======== */
+
+.features {
+    margin-top: 130px;
+}
+
+.features .body .slogan {
+    color: #767E7E;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.features .body .heading-lv2 {
+    margin-top: 18px;
+    width: 557px;
+}
+
+.features .body .desc {
+    margin-top: 18px;
+    width: 590px;
+    color: #767E7E;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.features .body .card-list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .body .card-item .heading-lv3 {
+    margin-top: 26px;
+    color: #0D1111;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.features .body .card-list .desc {
+    color: #9DA6A5;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6785;
+}
+
+.features .body .card-list .desc:not(.desc-1) {
+    width: 223px;
+}
+
+.features .body .card-list .desc-1 {
+    width: 168px;
 }
