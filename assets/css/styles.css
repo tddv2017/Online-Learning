@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Common */
+
+.main-content {
+    width: 1170px;
+    margin: auto;
+    max-width: calc(100% - 135px)
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    min-width: 186px;
+    border-radius: 999px;
+    background: #2AC9BF;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Header */
+.header .nav {
+    margin-top: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav .menu-list {
+    display: flex;
+    gap: 30px;
+}
+
+.header .nav .menu-list .li {
+    color: #2F3A3B;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.header .nav .menu-list .active {
+    color: #2F3A3B;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.header .nav .action .sign-in {
+    margin-right: 24px;
+    color: #494949;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.header .nav .action .btn-sign-up {
+    min-width: 108px;
+    background-color: #fff;
+    color: #1EBFC1;
+    border-radius: 6px;
+    border: 1px solid #1EBFC1;
+}
