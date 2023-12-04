@@ -60,6 +60,14 @@ a {
     line-height: 1.33;
 }
 
+.heading-lv3 {
+    color: #0D1111;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 /* Header */
 .header .nav {
     margin-top: 52px;
@@ -305,6 +313,7 @@ a {
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
+    line-height: normal;
 }
 
 .features .body .card-list {
@@ -336,4 +345,123 @@ a {
 
 .features .body .card-list .desc-1 {
     width: 168px;
+}
+
+/*=============== Course =========== */
+
+.courses {
+    margin-top: 130px;
+}
+
+.courses .body .heading-lv2 {
+    margin-top: 18px;
+    width: 557px;
+}
+
+.courses .body .slogan {
+    color: #767E7E;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.courses .body .desc {
+    margin-top: 18px;
+    width: 525px;
+    color: #767E7E;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.courses .body .card-list {
+    margin-top: 79px;
+    display: flex;
+    justify-content: space-between;
+    gap: 47px;
+}
+
+.courses .card-item {
+    width: 33.33%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.courses .card-item img {
+    width: 100%;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0.55;
+    background: #D0EFED;
+}
+
+.courses .card-body {
+    padding: 18px 25px 29px 25px;
+    position: absolute;
+    bottom: -71px;
+    min-width: 90.5%;
+    height: 195px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.courses .card-body .price {
+    margin-top: 16px;
+    color: #767E7E;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.courses .card-body .price strong {
+    color: #0D1111;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.courses .card-body .desc {
+    width: 100%;
+    margin-top: 6px;
+    color: #9DA6A5;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.courses .card-body .group-info {
+    display: flex;
+}
+
+.courses .card-body .info {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    color: #9DA6A5;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.courses .card-body .info::before {
+    margin-right: 10px;
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #1EBFC1;
+}
+
+.courses .card-body .info:nth-of-type(2) {
+    margin-left: 10px;
 }
